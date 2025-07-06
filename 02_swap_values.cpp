@@ -4,9 +4,9 @@ int main() {
     int a = 1;
     int b = 2;
 
-    int c = a;
+    int temp = a;
     a = b;
-    b = c;
+    b = temp;
 
     std::cout << a << std::endl;
     std::cout << b;
